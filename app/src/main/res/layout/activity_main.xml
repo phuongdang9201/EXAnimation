@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvViewAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_check_item"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Demo View Animation"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPropertyAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_check_item"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Demo Property Animation"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDrawableAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_check_item"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Demo Drawable Animation"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPhysicAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_check_item"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Demo Physics-based Animation"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

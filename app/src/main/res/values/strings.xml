@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DemoAnimation</string>
+    <string name="activity_view_description">Demo View Animation please choice type effect animation.</string>
+    <string name="activity_property_description">Demo Property Animation please choice type effect animation.</string>
+    <string name="activity_physic_stiffness">Stiffness : </string>
+    <string name="activity_physic_drag_me">Drag me</string>
+    <string name="activity_physic_damping_ratio">Damping ratio : </string>
+    <string name="activity_drawable_character">Demo Character Animation</string>
+    <string name="activity_drawable_dialog">Demo Dialog Animation</string>
+    <string name="animation_title_blink">Blink</string>
+    <string name="animation_title_fade">Fade</string>
+    <string name="animation_title_fade_in">Fade In</string>
+    <string name="animation_title_fade_out">Fade Out</string>
+    <string name="animation_title_move">Move</string>
+    <string name="animation_title_rotate">Rotate</string>
+    <string name="animation_title_scale">Scale</string>
+    <string name="animation_title_slide_down">Slide Down</string>
+    <string name="animation_title_slide_up">Slide Up</string>
+    <string name="animation_title_zoom_in">Zoom In</string>
+    <string name="animation_title_zoom_out">Zoom Out</string>
+    <string name="animation_title_sequential">Sequential</string>
+    <string name="animation_title_together">Together</string>
+    <string name="activity_view_title">Demo View Animation</string>
+    <string name="activity_drawable_title">Demo Drawable Animation</string>
+    <string name="activity_property_title">Demo Property Animation</string>
+    <string name="activity_physic_title">Demo Physics-based Animation</string>
+    <string name="activity_view_programmatically">View Animation Programmatically"</string>
+    <string name="activity_property_programmatically">Property Animation Programmatically"</string>
+</resources>

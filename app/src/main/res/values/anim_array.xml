@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animation_array">
+        <item>Blink</item>
+        <item>Fade In</item>
+        <item>Fade Out</item>
+        <item>Move</item>
+        <item>Rotate</item>
+        <item>Slide Up</item>
+        <item>Slide Down</item>
+        <item>Zoom In</item>
+        <item>Zoom Out</item>
+        <item>Sequential</item>
+        <item>Together</item>
+    </string-array>
+    <string-array name="animator_array">
+        <item>Fade</item>
+        <item>Move</item>
+        <item>Rotation</item>
+        <item>Scale</item>
+        <item>Sequential</item>
+        <item>Together</item>
+    </string-array>
+</resources>

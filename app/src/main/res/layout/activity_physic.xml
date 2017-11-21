@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/drag"
+        style="@style/AppTheme.CircleTextViewDrag"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:text="@string/activity_physic_drag_me" />
+
+    <TextView
+        android:id="@+id/first"
+        style="@style/AppTheme.CircleTextViewFirst"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        android:layout_below="@+id/drag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/circle_distance" />
+
+    <TextView
+        android:id="@+id/second"
+        style="@style/AppTheme.CircleTextViewSecond"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        android:layout_below="@+id/first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/circle_distance" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/damping_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/activity_physic_damping_ratio" />
+
+        <TextView
+            android:id="@+id/damping_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/damping_label"
+            android:text="120" />
+
+        <SeekBar
+            android:id="@+id/damping_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_toRightOf="@+id/damping_value" />
+
+        <TextView
+            android:id="@+id/stiffness_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/damping_value"
+            android:text="@string/activity_physic_stiffness" />
+
+        <TextView
+            android:id="@+id/stiffness_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stiffness_label"
+            android:text="200" />
+
+        <SeekBar
+            android:id="@+id/stiffness_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stiffness_label"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_toRightOf="@+id/stiffness_value" />
+    </RelativeLayout>
+</RelativeLayout>
